@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif; 
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container{
+    max-width: 700px;
+    width: 50%;
+    margin-right: 150px;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.profile{
+    /*width: 50%;
+     height: 100vh;*/
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user{
+    width: 350px;
+    /*height: 65%;*/
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: #333;
+}
+.user h1{
+    font-weight: 500;
+    color: #000;
+}
+.user img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.user label{
+    display: block;
+    width: 200px;
+    background: linear-gradient(135deg, #e671cf, #9b59b6);
+    color: #fff;  
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.user input{
+    display: none;
+}
+.edit{
+    width: 150px;
+    background: linear-gradient(135deg, #e671cf, #9b59b6);
+    color: #ffff;  
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.save{
+    width: 100px;
+    background: linear-gradient(135deg, #ae85f1, #598eb6);
+    color: #ffff;  
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.upload{
+    width: 200px;
+    background: linear-gradient(135deg, #e671cf, #9b59b6);
+    color: #ffff;  
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 18px;
+}
